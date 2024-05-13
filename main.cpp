@@ -10,8 +10,8 @@ int main()
 	float Divide;
 	float Substract;
 		
-	cout << "사칙연산 할 숫자 2개를 입력해주새요." << endl;
-	cin >> Number1 ;
+	cout << "사칙연산할 숫자 2개를 입력해주세요." << endl;
+	cin >> Number1;
 	cin >> Number2;
 
 	Sum = Number1 + Number2;
