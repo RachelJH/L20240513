@@ -10,6 +10,7 @@ int main()
 	float Divide;
 	float Substract;
 		
+	cout << "사칙연산 할 숫자 2개를 입력해주새요." << endl;
 	cin >> Number1 ;
 	cin >> Number2;
 
@@ -18,10 +19,10 @@ int main()
 	Multiful = Number1 * Number2;
 	Divide = Number1 / Number2;	
 
-	cout << Sum << endl;
-	cout << Substract << endl;
-	cout << Multiful << endl;
-	cout << Divide << endl;
+	cout << "더하기:" << Sum << endl;
+	cout << "빼기:" << Substract << endl;
+	cout << "곱하기:" << Multiful << endl;
+	cout << "나누기:" << Divide << endl;
 
 	return 0;
 }
